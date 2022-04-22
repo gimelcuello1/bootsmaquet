@@ -1,0 +1,37 @@
+header{
+    background-image: url(multimedia/Fondo.png);
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-attachment: fixed; 
+ 
+}
+.contenedor{
+    display: grid;
+    grid-template-columns:'header header header'
+    'nav nav nav'
+   'section section aside'
+    'footer footer footer'
+}
+
+aside{
+    grid-area: aside;
+
+    display: flex;
+    height: 300px;
+    justify-content: flex-end;
+    align-items: stretch;
+     
+}
+footer{ 
+    grid-area: footer;
+    background-color: black;
+    color: white;
+    padding: 10px;
+} 
+/*Discografia*/
+
+
+
+
+
+
